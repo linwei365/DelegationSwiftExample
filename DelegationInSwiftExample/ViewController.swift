@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,SecondViewControllerDelegate {
 
  
     
@@ -23,6 +23,15 @@ class ViewController: UIViewController {
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let vc :SecondViewController = (segue.destinationViewController as? SecondViewController)!
+        vc.delegate = self
+        
+        
+    }
+    
+    func passValue(text: String) {
+        self.textLabelA.text = text
         
     }
     

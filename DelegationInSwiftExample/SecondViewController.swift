@@ -8,13 +8,24 @@
 
 import UIKit
 
+protocol SecondViewControllerDelegate {
+    
+    func passValue (text:String)
+}
+
 class SecondViewController: ViewController {
 
+    var delegate:SecondViewControllerDelegate? = nil
+    
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     var text:String = ""
     
     @IBAction func goBackButtonOnClick(sender: UIButton) {
+        
+        delegate?.passValue(self.textField.text!)
+        
+        
         
         presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
         
