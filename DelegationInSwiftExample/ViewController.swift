@@ -26,6 +26,7 @@ class ViewController: UIViewController,SecondViewControllerDelegate {
         
         let vc :SecondViewController = (segue.destinationViewController as? SecondViewController)!
         vc.delegate = self
+        vc.text = textFieldA.text!
         
         
     }
