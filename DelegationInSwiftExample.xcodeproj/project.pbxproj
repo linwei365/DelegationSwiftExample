@@ -15,6 +15,7 @@
 		65BB34C21C632AA70014C0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BB34C01C632AA70014C0BA /* LaunchScreen.storyboard */; };
 		65BB34CD1C632AA70014C0BA /* DelegationInSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB34CC1C632AA70014C0BA /* DelegationInSwiftExampleTests.swift */; };
 		65BB34D81C632AA70014C0BA /* DelegationInSwiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB34D71C632AA70014C0BA /* DelegationInSwiftExampleUITests.swift */; };
+		65BB34E61C632C780014C0BA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB34E51C632C780014C0BA /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		65BB34D31C632AA70014C0BA /* DelegationInSwiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegationInSwiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BB34D71C632AA70014C0BA /* DelegationInSwiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationInSwiftExampleUITests.swift; sourceTree = "<group>"; };
 		65BB34D91C632AA70014C0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65BB34E51C632C780014C0BA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				65BB34B41C632AA70014C0BA /* AppDelegate.swift */,
 				65BB34B61C632AA70014C0BA /* ViewController.swift */,
 				65BB34B81C632AA70014C0BA /* Main.storyboard */,
+				65BB34E51C632C780014C0BA /* SecondViewController.swift */,
 				65BB34BE1C632AA70014C0BA /* Assets.xcassets */,
 				65BB34C01C632AA70014C0BA /* LaunchScreen.storyboard */,
 				65BB34C31C632AA70014C0BA /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65BB34E61C632C780014C0BA /* SecondViewController.swift in Sources */,
 				65BB34BD1C632AA70014C0BA /* DelegationInSwiftExample.xcdatamodeld in Sources */,
 				65BB34B71C632AA70014C0BA /* ViewController.swift in Sources */,
 				65BB34B51C632AA70014C0BA /* AppDelegate.swift in Sources */,
